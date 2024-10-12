@@ -1,3 +1,49 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(59, 16, 58);
 }
+/* ESTO ES NAVEGADORES */
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: azure;
+border-bottom: 3px solid   green;
+
+}
+.navigation{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: flex;
+width: 500px;
+justify-content: space-between;
+list-style: none;
+}
+.barranav{
+background-color: aqua;
+}
+.logo{
+background-color: rgb(158, 101, 31);
+border-radius: 1px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
