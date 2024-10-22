@@ -1,10 +1,63 @@
 body {
-    background-color: blanchedalmond;
-    text-align: center;
+    background-color: rgb(59, 16, 58);
+}
+/* ESTO ES NAVEGADORES */
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: azure;
+border-bottom: 3px solid   green;
+
+}
+.navigation{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: flex;
+width: 500px;
+justify-content: space-between;
+list-style: none;
+}
+.barranav{
+background-color: aqua;
+}
+.logo{
+background-color: rgb(158, 101, 31);
+border-radius: 1px ;
 }
 
-h1{
-    border: 2px solid orange;
-    padding: 10px;
-    text-transform: uppercase;
+.slider-frame{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+
 }
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 9s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    35% {margin-left: 0%;}
+
+    45% {margin-left: -100%;}
+    75% {margin-left: -100%;}
+
+    80% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
